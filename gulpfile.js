@@ -100,11 +100,6 @@ gulp.task('copy', function() {
   gulp.src(['node_modules/jquery.easing/*.js'])
     .pipe(gulp.dest('assets/js/vendor/'))
 
-  gulp.src([
-      'node_modules/font-awesome/css/font-awesome.min.css',
-      'node_modules/font-awesome/fonts/*'
-    ])
-    .pipe(gulp.dest('assets/fonts/font-awesome'))
 })
 
 // Default task
