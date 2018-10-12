@@ -44,3 +44,13 @@ html, body {
 
 .m-b-md {
   margin-bottom: 30px; }
+
+.about {
+  color: #f6f5f0;
+  padding: 0 25px;
+  font-size: 26px;
+  font-weight: 540;
+  letter-spacing: .1rem; }
+
+.bg-about {
+  background-color: #ec5252; }
