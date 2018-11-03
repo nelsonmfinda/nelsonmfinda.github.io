@@ -60,13 +60,13 @@
 
 // Font Mixins
 @mixin serif-font {
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', 'Open Sans', sans-serif;
 }
 @mixin script-font {
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 @mixin body-font {
-  font-family: 'Nunito', 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif !important;
 }
 @mixin heading-font {
   font-family: 'Nunito', 'Open Sans', sans-serif;
