@@ -16,7 +16,7 @@
     "sass": "bundle exec gulp sass",
     "watch": "bundle exec gulp watch"
   },
-  "private" : true,
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nelsonmfinda/nelsonmfinda.github.io.git"
@@ -36,17 +36,14 @@
   "author": "Nelson Mfinda",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nelsonmfinda/nelsonmfinda.github.io/issues"
+    "email": "info@nelsonmfinda.me"
   },
   "homepage": "nelsonmfinda.me",
-  "bugs": {
-        "email": "info@nelsonmfinda.me"
-  },
   "dependencies": {
-      "bootstrap": "^4.0.0-beta",
-      "jquery": "^3.2.1",
-      "jquery.easing": "^1.4.1",
-      "popper.js": "^1.11.1"
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "jquery.easing": "^1.4.1",
+    "popper.js": "^1.11.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.0.1",
