@@ -1,0 +1,78 @@
+{
+  "name": "nelsonmfinda.me",
+  "version": "1.0.0",
+  "description": "My personal website and portfolio",
+  "main": "gulpfile.js",
+  "scripts": {
+    "preinstall": "bundle install --path vendor/bundle",
+    "start": "bundle exec gulp",
+    "test": "bundle exec gulp test",
+    "browsersync": "bundle exec gulp browsersync",
+    "browsersync-production": "bundle exec gulp browsersync --jekyllEnv='production'",
+    "build": "bundle exec gulp build --jekyllEnv='production'",
+    "eslint": "bundle exec gulp eslint",
+    "imagemin": "bundle exec gulp imagemin",
+    "production": "bundle exec gulp --jekyllEnv='production'",
+    "sass": "bundle exec gulp sass",
+    "watch": "bundle exec gulp watch"
+  },
+  "private" : true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonmfinda/nelsonmfinda.github.io.git"
+  },
+  "keywords": [
+    "angola",
+    "coding",
+    "freelancer",
+    "developer",
+    "backend",
+    "frontend",
+    "web",
+    "website",
+    "portfolio",
+    "desenvolvedor"
+  ],
+  "author": "Nelson Mfinda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nelsonmfinda/nelsonmfinda.github.io/issues"
+  },
+  "homepage": "nelsonmfinda.me",
+  "bugs": {
+        "email": "info@nelsonmfinda.me"
+  },
+  "dependencies": {
+      "bootstrap": "^4.0.0-beta",
+      "jquery": "^3.2.1",
+      "jquery.easing": "^1.4.1",
+      "popper.js": "^1.11.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.0.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.6",
+    "eslint-config-google": "^0.9.1",
+    "eslint-loader": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "3.7.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-header": "2.0.5",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "imagemin-pngquant": "^6.0.0",
+    "require-dir": "^1.0.0",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.16.1",
+    "webpack-stream": "^5.0.0",
+    "yargs": "^12.0.1"
+  }
+}

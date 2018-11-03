@@ -1,10 +1,13 @@
 # Site settings
 
-title: Dunders | A Starter Theme for Jekyll # put your blog title
-description: Faster to start a new Jekyll theme # put your description for your amazing blog
+title: Nelson Mfinda | Software Developer # put your blog title
+description: Olá! sou Nelson Mfinda, desenvolvedor web e freelancer, curioso, love open source, e estudante de Ciências da Computação # put your description for your amazing blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site e.g. https://woliveiras.com.br
-language: "" # language to set into html tag, default is en
+canonical_url: "https://nelsonmfinda.me"
+permalink: /404
+image: "assets/images/dunders.png"
+url: "https://nelsonmfinda.me" # the base hostname & protocol for your site e.g. https://woliveiras.com.br
+language: "pt-PT" # language to set into html tag, default is en
 paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 date_format: "%b %-d, %Y"  # dateformat of reading list, post date, and more
@@ -25,32 +28,32 @@ var_less_than_a_minute_read: < 1 min read
 var_min_read: min read # Text after reading time. Example: 5 min read.
 var_post_by: Writed by
 var_guest_post_by: Guest post by
-var_your_email: Your mail
+var_your_email: "info@nelsonmfinda.me"
 var_your_message: Your message
 var_page_indicator: Page
 var_page_indicator_separator: of
 
 # User settings
 
-author: dunders # put your name or a name of principal author of site/blog
-email: dunders@dunders.com
-twitter_username: dunders
-github_username:  dunders
-gplus_username:  dunders
-disqus_shortname: dunders-website
+author: nelsonmfinda # put your name or a name of principal author of site/blog
+email: hello@nelsonmfinda.me
+twitter_username: nelsonmfinda
+github_username:  nelsonmfinda
+gplus_username:  nelsonmfinda
+disqus_shortname: nelsonmfinda
 
 # Navigation menu
 links:
-  - title: Home
+  - title: Nelson Mfinda | Software Developer
     url: /
   - title: About Me
     url: /about
-  - title: Archive
-    url: /archive
+  - title: My Skills
+    url: /skills
   - title: Contact
     url: /contact
-  - title: Categories
-    url: /categories
+  - title: Projects
+    url: /projects
 
 # Build settings
 
@@ -65,8 +68,23 @@ sass:
   
 ## For more settings: https://jekyllrb.com/docs/configuration/
 
-# exclude files if no need build
-exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE']
-
-# Gems
-gems: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - frasco.config.js
+  - Gemfile
+  - Gemfile.lock
+  - gulp_tasks
+  - gulpfile.js
+  - LICENSE
+  - node_modules
+  - npm-debug.log
+  - package.json
+  - package-lock.json
+  - README.md
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - yarn.lock
