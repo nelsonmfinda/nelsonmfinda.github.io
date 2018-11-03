@@ -1,6 +1,6 @@
 
 
-# Nelson Mfinda | Software Develoer
+# Nelson Mfinda | Software Developer
 
 [![Build Status](https://travis-ci.com/nelsonmfinda/nelsonmfinda.github.io.svg?branch=master)](https://travis-ci.com/nelsonmfinda/nelsonmfinda.github.io)
 [![Maintainability](https://api.codeclimate.com/v1/badges/640917e737f2289c55b6/maintainability)](https://codeclimate.com/github/nelsonmfinda/nelsonmfinda.github.io/maintainability)
@@ -12,6 +12,11 @@ This is my Personal website and Portfolio
 
 Make a folder of your new awesome Jekyll Theme.
 
+
+## Depencies
+
+Dunders
+Frasco
 Eg.:
 
 ```
