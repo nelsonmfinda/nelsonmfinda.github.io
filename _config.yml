@@ -1,9 +1,10 @@
 # Site settings
 
 title: Nelson Mfinda | Software Developer # put your blog title
-description: Olá! sou Nelson Mfinda, desenvolvedor web e freelancer, curioso, love open source, e estudante de Ciências da Computação # put your description for your amazing blog
+description: Olá! sou Nelson Mfinda, desenvolvedor de software e freelancer, curioso, love open source, e estudante de Ciências da Computação # put your description for your amazing blog
 baseurl: "" # the subpath of your site, e.g. /blog
 canonical_url: "https://nelsonmfinda.me"
+google_analytics: "UA-120927564-2"
 permalink: /404
 image: "assets/images/dunders.png"
 url: "https://nelsonmfinda.me" # the base hostname & protocol for your site e.g. https://woliveiras.com.br

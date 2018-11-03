@@ -2,6 +2,26 @@
 
 /** @import "node_modules/bootstrap/scss/bootstrap"; */
 
-body {
-	color: #000;
-}
+// Core variables and mixins
+
+@import "variables.scss";
+@import "mixins.scss";
+
+// Global CSS
+
+@import "global.scss";
+
+// Components
+
+/* @import "components/navbar.scss";
+@import "components/masthead.scss";
+@import "components/services.scss";
+@import "components/portfolio.scss";
+@import "components/timeline.scss";
+@import "components/skills.scss";
+@import "components/contact.scss";
+@import "components/footer.scss"; */
+
+// Bootstrap Overrides
+
+@import "bootstrap-overrides.scss";

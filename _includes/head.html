@@ -32,6 +32,11 @@
     <meta property="og:image:alt" content="Nelson Mfinda | Saiba mais sobre mim" />
     <meta property="og:image:type" content="image/png" />
 
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+        {%- include google-analytics.html -%}
+    {%- endif -%}
+
     <link rel="shortcut icon" href="{{site.baseurl}}/assets/images/icons/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/images/icons/apple-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/assets/images/icons/apple-icon-57x57.png" />
@@ -43,6 +48,9 @@
     <link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/assets/images/icons/apple-icon-76x76.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/assets/images/icons/apple-icon-152x152.png" />
     <link rel="author" href="https://plus.google.com/{{ site.gplus_username }}?rel=author">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600|Open+Sans" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css">
   </head>
