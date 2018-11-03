@@ -41,7 +41,6 @@ install:
 script:
   - bundle exec jekyll build
   - npm test
-  - htmlproofer --url-ignore "/talk.jekyllrb.com/" ./_site
 
 # Pipe the coverage data to Code Climate
 after_script:
