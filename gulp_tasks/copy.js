@@ -22,8 +22,14 @@ gulp.task('copy', function() {
   gulp.src(['node_modules/jquery.easing/*min.js'])
     .pipe(gulp.dest(config.assets + '/' + 'js/vendor/'))
 
-  gulp.src([
-      'node_modules/font-awesome/css/*.min.css',
+  /*gulp.src([
+      'node_modules/font-awesome/css/*.min.css',  
     ])
-    .pipe(gulp.dest(config.assets + '/' + 'fonts/'))
+    .pipe(gulp.dest(config.assets + '/' + 'fonts/vendor/font-awesome/css'))
+
+  gulp.src([
+      'node_modules/font-awesome/fonts/*',  
+    ])
+    .pipe(gulp.dest(config.assets + '/' + 'fonts/vendor/font-awesome/fonts'))*/
+
 })

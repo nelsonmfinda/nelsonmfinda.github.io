@@ -13,7 +13,7 @@ This is my Personal website and Portfolio
 Make a folder of your new awesome Jekyll Theme.
 
 
-## Depencies
+## Dependencies
 
 Dunders
 Frasco
