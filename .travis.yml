@@ -1,7 +1,13 @@
 language: node_js
+
 node_js:
   - '8'
   - '10'
+
+env:
+  global:
+  - CC_TEST_REPORTER_ID=54d32941ad62ae031aed884e5f8a5daca4e8f8ccf30246f85a0830004a042175
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 branches:
   only:
@@ -20,20 +26,29 @@ deploy:
   on:
     branch: master
 
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-
 before_install:
   - rvm install 2.5.0
 
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+
 install:
   - npm install
+  - bundle install --without production --path=${BUNDLE_PATH:-vendor/bundle}
   - gem install html-proofer
 
 script:
   - bundle exec jekyll build
   - npm test
   - htmlproofer --url-ignore "/talk.jekyllrb.com/" ./_site
+
+# Pipe the coverage data to Code Climate
+after_script:
+  - ./cc-test-reporter format-coverage -t simplecov -o coverage/codeclimate.backend.json coverage/backend/.resultset.json # Format backend coverage
+  - ./cc-test-reporter format-coverage -t lcov -o coverage/codeclimate.frontend.json coverage/frontend/lcov.info  # Format frontend coverage
+  - ./cc-test-reporter sum-coverage coverage/codeclimate.*.json -p 2                  # Sum both coverage parts into coverage/codeclimate.json
+  - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi  # Upload coverage/codeclimate.json
 
 sudo: false
