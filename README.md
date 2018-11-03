@@ -2,10 +2,11 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/640917e737f2289c55b6/maintainability)](https://codeclimate.com/github/nelsonmfinda/nelsonmfinda.github.io/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/640917e737f2289c55b6/test_coverage)](https://codeclimate.com/github/nelsonmfinda/nelsonmfinda.github.io/test_coverage)
 [![GitHub tag (v2.0.0)](https://img.shields.io/github/tag/expressjs/express.svg)](https://github.com/nelsonmfinda/nelsonmfinda.github.io/releases/tag/v2.0.0)
+[![Inline docs](http://inch-ci.org/github/nelsonmfinda/notebook.png)](http://inch-ci.org/github/nelsonmfinda/notebook)
 
-# Nelson Mfinda: Personal and Portfolio Website
+# Nelson Mfinda
 
-## How to use
+This is my Personal website and Portfolio
 
 Make a folder of your new awesome Jekyll Theme.
 
