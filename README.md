@@ -3,11 +3,6 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/640917e737f2289c55b6/test_coverage)](https://codeclimate.com/github/nelsonmfinda/nelsonmfinda.github.io/test_coverage)
 [![GitHub tag (v2.0.0)](https://img.shields.io/github/tag/expressjs/express.svg)](https://github.com/nelsonmfinda/nelsonmfinda.github.io/releases/tag/v2.0.0)
 
-
-<p align="center">
-    <img src="/assets/images/icons/favicon-96x96.png" alt="Dunders logo">
-</p>
-
 # Nelson Mfinda: Personal and Portfolio Website
 
 ## How to use
