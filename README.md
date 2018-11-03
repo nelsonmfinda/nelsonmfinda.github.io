@@ -1,5 +1,3 @@
-
-
 # Nelson Mfinda | Software Developer
 
 [![Build Status](https://travis-ci.com/nelsonmfinda/nelsonmfinda.github.io.svg?branch=master)](https://travis-ci.com/nelsonmfinda/nelsonmfinda.github.io)
@@ -92,4 +90,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/wolive
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
