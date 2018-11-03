@@ -3,8 +3,10 @@ module.exports = {
 
   tasks: {
     browsersync: true,
+    copy:        true,
     eslint:      true,
     imagemin:    true,
+    minifycss:   true,
     sass:        true,
     watch:       true,
     webpack:     true,
@@ -57,6 +59,7 @@ module.exports = {
     dest:  'js',
     entry: [
       'bundle.js',
+      'main.js'
     ],
   },
 
@@ -71,6 +74,13 @@ module.exports = {
         'Firefox ESR',
       ],
     },
+  },
+
+  minifycss: {
+    src:   'css',
+    dest:  'css',
+    compatibility: 'i18n',
+    suffix: '.min'
   },
 
   webpack: {

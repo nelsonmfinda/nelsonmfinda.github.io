@@ -15,6 +15,12 @@ gulp.task('watch', function () {
     });
   }
 
+  /*if (config.tasks.minifycss) {
+    watch(config.assets + '/' + config.minifycss.src + '/*', function () {
+      gulp.start('minifycss');
+    });
+  }*/
+
   if (config.tasks.browsersync) {
     watch([
       '!./node_modules/**/*',
