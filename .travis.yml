@@ -11,6 +11,7 @@ env:
 branches:
   only:
     - master
+    - gh-pages
 
 cache:
   directories:

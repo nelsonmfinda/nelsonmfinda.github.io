@@ -14,13 +14,20 @@ p {
   line-height: 1.75;
 }
 
+/**
+ * Links
+ */
 a {
   color: $theme-primary;
-  &.active,
-  &:active,
-  &:focus,
+  text-decoration: none;
+
+  &:visited {
+    color: darken($theme-primary, 15%);
+  }
+
   &:hover {
-    color: darken($theme-primary, 10%);
+    color: $text-color;
+    text-decoration: underline;
   }
 }
 
