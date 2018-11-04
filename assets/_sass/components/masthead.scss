@@ -36,6 +36,20 @@
     text-transform: uppercase;
 }
 
+.links > a {
+    color: $theme-primary;
+    text-decoration: none;
+
+    &:visited {
+    color: darken($theme-primary, 15%);
+    }
+
+    &:hover {
+    color: $text-color;
+    text-decoration: none;
+    }
+}
+
 .m-b-md {
     margin-bottom: 30px;
 }
