@@ -5,7 +5,7 @@ description: Olá! sou Nelson Mfinda, desenvolvedor de software e freelancer, cu
 baseurl: "" # the subpath of your site, e.g. /blog
 canonical_url: "https://nelsonmfinda.me"
 google_analytics: "UA-120927564-2"
-permalink: /404
+permalink: "/404"
 image: "assets/images/dunders.png"
 url: "https://nelsonmfinda.me" # the base hostname & protocol for your site e.g. https://woliveiras.com.br
 language: "pt-PT" # language to set into html tag, default is en
@@ -13,7 +13,7 @@ paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 date_format: "%b %-d, %Y"  # dateformat of reading list, post date, and more
 permalink: /:title/ # use to url friendly
-timezone:  # timezone to show in yout sire
+timezone: "WAT" # timezone to show in yout sire
 display-author-front-page: # True if you need show author name and site on home page
 display-author-post-page: true # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
 
