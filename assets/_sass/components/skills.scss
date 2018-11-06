@@ -1,0 +1,32 @@
+.skills-featured {
+	background: -webkit-gradient(linear,left bottom,right top,from(#f6f6f7),to(#fefefe));
+    background: linear-gradient(to top right,#f6f6f7,#fefefe);
+
+    .skill-description {
+		font-size: 1.3em !important;
+	}
+}
+
+.skills {
+
+    svg, img {
+    	max-width: 50px;
+	    border-radius: 6px;
+	    display: block;
+	    margin: 0 auto;
+    }
+
+    .skills-card {
+    	transition: all 200ms ease;
+	    background: #fff;
+	    border: 1px solid #ebecec;
+	    border-radius: 6px;
+	    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    }
+
+    .skills-card > h3 {
+    	font-size: 0.9em !important;
+    }
+
+}

@@ -12,36 +12,4 @@
 	}
 
 	a { color: #fff; }
-
-	.section-personality {
-		background-color: #CCCFC8;
-
-		.icon {
-			width: 140px;
-			height: auto;
-	        display: block;
-	        padding: 45px;
-	        margin: 0 auto;
-	        border-radius: 50%;
-	        background: #fff;
-	        box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 
-	        			0 4px 25px 0px rgba(0, 0, 0, 0.12), 
-	        			0 8px 10px -5px rgba(0, 0, 0, 0.2);
-		}
-
-		/** Media queries */
-
-		@media (max-width: 991px){
-	        .section-personality .icon{
-	            width: 150px;
-	        }
-	    }
-
-	    @media (max-width: 767px){
-	        .section-personality .icon{
-	            width: 100px;
-	            padding: 20px;
-	        }
-	    }
-	}
 }
