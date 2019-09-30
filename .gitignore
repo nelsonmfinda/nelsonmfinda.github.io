@@ -1,32 +1,21 @@
-# Sass
-.sass-cache
-*.scssc
-
-# Sublime Text
-sftp-config.json
-
-# Jekyll
-_site
-.jekyll-metadata
-/.bundle
-/vendor
-
-# Node.js
-node_modules/
-
-# Logfiles and tempfiles
-*.log
-/log/*
-!/log/.keep
-/tmp
-
-# Other unneeded files
-doc/
-*.swp
-*~
-.project
 .DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
 .idea
-.secret
-.bundle
-.npm-debug.log
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
