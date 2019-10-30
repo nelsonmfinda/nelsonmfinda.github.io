@@ -52,7 +52,7 @@
 
 export default {
   components: {
-    
+
   }
 }
 
@@ -92,4 +92,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   .navbar-item
     color: #FFF
+
+  a.navbar-burger
+    color: #fff
+
+@media screen and (max-width: 1023px)
+
+  .navbar-menu
+      background-color: #000
+      -webkit-box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1)
+      box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1)
+      padding: 0.5rem 0
+
+  .navbar-item
+    text-transform: uppercase
+    text-align: center
+
+  .navbar-item:hover
+    background-color: #fff
+    color: #000
 </style>
