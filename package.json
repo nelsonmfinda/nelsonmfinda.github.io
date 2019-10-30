@@ -1,78 +1,64 @@
 {
   "name": "nelsonmfinda.github.io",
-  "version": "1.0.0",
-  "description": "My personal website and portfolio",
-  "main": "gulpfile.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "preinstall": "bundle install --path vendor/bundle",
-    "start": "bundle exec gulp",
-    "test": "bundle exec gulp test",
-    "browsersync": "bundle exec gulp browsersync",
-    "browsersync-production": "bundle exec gulp browsersync --jekyllEnv='production'",
-    "build": "bundle exec gulp build --jekyllEnv='production'",
-    "eslint": "bundle exec gulp eslint",
-    "imagemin": "bundle exec gulp imagemin",
-    "production": "bundle exec gulp --jekyllEnv='production'",
-    "sass": "bundle exec gulp sass",
-    "watch": "bundle exec gulp watch"
-  },
-  "private" : true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nelsonmfinda/nelsonmfinda.github.io.git"
-  },
-  "keywords": [
-    "angola",
-    "coding",
-    "freelancer",
-    "developer",
-    "backend",
-    "frontend",
-    "web",
-    "website",
-    "portfolio",
-    "desenvolvedor"
-  ],
-  "author": "Nelson Mfinda",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nelsonmfinda/nelsonmfinda.github.io/issues"
-  },
-  "homepage": "nelsonmfinda.me",
-  "bugs": {
-        "email": "info@nelsonmfinda.me"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "serve": "webpack-dashboard -- vue-cli-service serve",
+    "build": "vue-cli-service build -- cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-      "bootstrap": "^4.0.0-beta",
-      "jquery": "^3.2.1",
-      "jquery.easing": "^1.4.1",
-      "popper.js": "^1.11.1"
+    "bulma": "^0.7.5",
+    "core-js": "^2.6.5",
+    "node-sass": "^4.12.0",
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.14.0",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.2",
+    "webpack-dashboard": "^3.0.7",
+    "webpack-stats-plugin": "^0.3.0"
   },
   "devDependencies": {
-    "autoprefixer": "^9.0.1",
-    "babel-core": "^6.26.3",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "babel-eslint": "^10.0.1",
     "babel-preset-env": "^1.7.0",
-    "browser-sync": "^2.24.6",
-    "eslint-config-google": "^0.9.1",
-    "eslint-loader": "^2.1.0",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.1",
-    "gulp-clean-css": "3.7.0",
-    "gulp-eslint": "^5.0.0",
-    "gulp-header": "2.0.5",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-newer": "^1.4.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-plumber": "^1.2.0",
-    "gulp-postcss": "^7.0.1",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.0",
-    "gulp-watch": "^5.0.0",
-    "imagemin-pngquant": "^6.0.0",
-    "require-dir": "^1.0.0",
-    "vinyl-named": "^1.1.0",
-    "webpack": "^4.16.1",
-    "webpack-stream": "^5.0.0",
-    "yargs": "^12.0.1"
-  }
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "file-loader": "^4.2.0",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^0.23.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.2",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
