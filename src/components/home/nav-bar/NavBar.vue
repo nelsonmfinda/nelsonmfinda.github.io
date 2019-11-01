@@ -33,13 +33,13 @@
               Contacto
             </a>
             <a class="navbar-item">
-              <i class="fab fa-github"></i>
+              <i class="fab fa-github" href="https://github.com/nelsonmfinda" target="_blank"></i>
             </a>
-            <a class="navbar-item" href="https://github.com/nelsonmfinda" target="_blank">
+            <a class="navbar-item" href="https://twitter.com/nelsonmfinda" target="_blank">
               <i class="fab fa-twitter"></i>
             </a>
             <a class="navbar-item" href="https://www.linkedin.com/in/nelsonmfinda/" target="_blank">
-              <i class="fab fa-linkedin" href="https://twitter.com/nelsonmfinda" target="_blank"></i>
+              <i class="fab fa-linkedin"></i>
             </a>
           </div>
         </div>
