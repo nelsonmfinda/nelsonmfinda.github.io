@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "serve": "webpack-dashboard -- vue-cli-service serve",
-    "build": "vue-cli-service build -- cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
