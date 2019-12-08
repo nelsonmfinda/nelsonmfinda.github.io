@@ -5,7 +5,7 @@ node_js:
 
 branches:
   only:
-    - master
+    - develop
 
 cache:
   directories:
@@ -24,6 +24,6 @@ deploy:
   keep-history: true
   local_dir: dist
   on:
-    branch: gh-pages
+    branch: master
 
 sudo: false
