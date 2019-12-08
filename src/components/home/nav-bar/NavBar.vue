@@ -32,13 +32,13 @@
             <a class="navbar-item">
               Contacto
             </a>
-            <a class="navbar-item">
+            <a class="navbar-item" href="https://github.com/nelsonmfinda">
               <i class="fab fa-github"></i>
             </a>
-            <a class="navbar-item">
+            <a class="navbar-item" href="http://twitter.com/@nelsonmfinda">
               <i class="fab fa-twitter"></i>
             </a>
-            <a class="navbar-item">
+            <a class="navbar-item" href="https://www.linkedin.com/in/nelsonmfinda/">
               <i class="fab fa-linkedin"></i>
             </a>
           </div>
