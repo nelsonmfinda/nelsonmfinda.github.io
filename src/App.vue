@@ -81,6 +81,7 @@ export default {
 
 <style scoped lang="sass">
 main
+  font-family: 'Open Sans', sans-serif !important
   position: relative
   display: table
   width: 100%
